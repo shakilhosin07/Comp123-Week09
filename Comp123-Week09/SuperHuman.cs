@@ -6,7 +6,7 @@ using System.Text;
  * Name: Shakil Hosin
  * Date: July 11th, 2017
  * Description: This is the Superhuman sub class.
- * Version : 0.1 - Created the SuperHuman sub class
+ * Version : Added Private Initialize Method
  */ 
 namespace Comp123_Week09
 {
@@ -17,12 +17,22 @@ namespace Comp123_Week09
     public class SuperHuman : Human
     {
         // PRIVATE FIELDS
+        private List<Power> _powers;
         //PUBLIC PROPERTIES
+
         //CONSTRUCTORS
         public SuperHuman(string name)
             :base(name)
         {
-
+            this._initialize();
+        }
+        // PRIVATE METHODS
+/// <summary>
+/// This method initializes and assigs default values to class fields
+/// </summary>
+        private void _initialize()
+        {
+            this._powers = new List<Power>();
         }
         //PUBLIC METHODS
     }
