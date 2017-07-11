@@ -49,5 +49,12 @@ namespace Comp123_Week09
         {
             this.Powers.Add(new Power(name, rank));
         }
+        public void DisplayPowers()
+        {
+            foreach (var power in Powers)
+            {
+                Console.WriteLine("Name: " + power.Name + "Rank: " + power.Rank);
+            }
+        }
     }
 }
