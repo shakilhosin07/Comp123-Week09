@@ -20,7 +20,7 @@ namespace Comp123_Week09
         //private fields (instance variables)
         private string _name;
         // public properties 
-        private string Name {
+        public string Name {
             get
             {
                 return this._name;

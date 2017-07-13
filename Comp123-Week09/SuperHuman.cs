@@ -6,7 +6,7 @@ using System.Text;
  * Name: Shakil Hosin
  * Date: July 11th, 2017
  * Description: This is the Superhuman sub class.
- * Version 0.6 : Modified the ToString to add additional spaces to the string output
+ * Version 0.7 : Added the DisplaySkills stub method to satisfy the Human super class requirements. 
  */ 
 namespace Comp123_Week09
 {
@@ -75,7 +75,15 @@ namespace Comp123_Week09
                 outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
             }
             outputString += "======================================================================\n";
-            return outputString;
+             return outputString;
+        }
+        /// <summary>
+        /// This method overrides the Human abstract superclass DisplaySkills method
+        /// This method will display a list of skills to the console.
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not implemented!");
         }
     }
 }
