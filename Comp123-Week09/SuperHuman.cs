@@ -6,7 +6,7 @@ using System.Text;
  * Name: Shakil Hosin
  * Date: July 11th, 2017
  * Description: This is the Superhuman sub class.
- * Version 0.5 : Added the overridden ToString Method
+ * Version 0.6 : Modified the ToString to add additional spaces to the string output
  */ 
 namespace Comp123_Week09
 {
@@ -56,7 +56,7 @@ namespace Comp123_Week09
         {
             foreach (Power power in this.Powers)
             {
-                Console.WriteLine("Name: " + power.Name + "Rank: " + power.Rank);
+                Console.WriteLine("Name: " + power.Name + " Rank: " + power.Rank);
             }
         }
         /// <summary>
