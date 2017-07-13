@@ -21,8 +21,19 @@
       <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Comp123_Week09.SuperHero">
+    <Position X="9.5" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuperHero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="Comp123_Week09.IHasKarma">
-    <Position X="3.75" Y="2" Width="1.5" />
+    <Position X="9.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasKarma.cs</FileName>
