@@ -17,6 +17,7 @@ namespace Comp123_Week09
         {
             SuperHuman superHuman = new SuperHuman("Super Dude");
             superHuman.Powers.Add(new Power("Teleportation", 50));
+            superHuman.AddPower("Webcasting", 40);
             superHuman.DisplayPowers();
             Console.WriteLine(superHuman.ToString());
         }
