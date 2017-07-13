@@ -15,6 +15,7 @@ namespace Comp123_Week09
     {
         static void Main(string[] args)
         {
+            SuperVillain superVillain = new SuperVillain("Green Goblin", 20);
             SuperHuman superHuman = new SuperHuman("Super Dude");
             superHuman.Powers.Add(new Power("Teleportation", 50));
             superHuman.AddPower("Webcasting", 40);

@@ -6,7 +6,7 @@ using System.Text;
  * Name: Shakil Hosin
  * Date: July 13th, 2017
  * Description: This is the superhero class which inherits the superhuman class
- * Version 0.1: 
+ * Version 0.1: added the instance variable karma
  */
 namespace Comp123_Week09
 {
@@ -28,10 +28,10 @@ namespace Comp123_Week09
             }
         }
         //CONSTRUCTORS
-        public SuperHero(string name)
+        public SuperHero(string name, int karma)
         :base(name)
         {
-            this.Karma = _karma;
+            this.Karma = karma;
         
         }
         //PRIVATE METHODS 
