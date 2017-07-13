@@ -7,7 +7,7 @@ using System.Threading.Tasks;
  * shakil hosin
  * july 11th 2017
  * This is the driver class for my project
- * Version : 0.2 - Added power to the superhuman object and displayed it
+ * Version : 0.5 - Implemented the Tostring method of the superhuman class
  */
 namespace Comp123_Week09
 {
@@ -18,6 +18,8 @@ namespace Comp123_Week09
             SuperHuman superHuman = new SuperHuman("Super Dude");
             superHuman.Powers.Add(new Power("Teleportation", 50));
             superHuman.DisplayPowers();
+            Console.WriteLine(superHuman.ToString());
         }
+        
     }
 }
