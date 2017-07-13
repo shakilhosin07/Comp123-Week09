@@ -8,14 +8,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Comp123_Week09.SuperHuman">
-    <Position X="5.75" Y="0.75" Width="1.5" />
+    <Position X="5.75" Y="0.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAAAAIAAAAAAACAABAAAAAABAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACAABAAAAAABAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Comp123_Week09.Power">
-    <Position X="3.5" Y="1.75" Width="1.5" />
+    <Position X="0.75" Y="3" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Power.cs</FileName>

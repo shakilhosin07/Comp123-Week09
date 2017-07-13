@@ -6,7 +6,7 @@ using System.Text;
  * Name: Shakil Hosin
  * Date: July 11th, 2017
  * Description: This is the Superhuman sub class.
- * Version 0.3 : Added Public Addpower Method 
+ * Version 0.5 : Added the overridden ToString Method
  */ 
 namespace Comp123_Week09
 {
@@ -49,12 +49,33 @@ namespace Comp123_Week09
         {
             this.Powers.Add(new Power(name, rank));
         }
+        /// <summary>
+        /// This emthod displays each of the powers stored in the powers list
+        /// </summary>
         public void DisplayPowers()
         {
-            foreach (var power in Powers)
+            foreach (Power power in this.Powers)
             {
                 Console.WriteLine("Name: " + power.Name + "Rank: " + power.Rank);
             }
+        }
+        /// <summary>
+        /// The Tostring method overrides the built in object.tostring method
+        /// it outputs a string that displays the superhuman's name 
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "======================================================================\n";
+            outputString += "Name: " + this.Name + "\n";
+            outputString += "======================================================================\n";
+                foreach (Power power in this.Powers)
+            {
+                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
+            }
+            outputString += "======================================================================\n";
+            return outputString;
         }
     }
 }
