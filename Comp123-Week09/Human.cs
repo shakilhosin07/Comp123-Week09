@@ -43,5 +43,11 @@ namespace Comp123_Week09
         {
             this.Name = name;
         }
+        // private methods 
+
+        // public methods 
+
+            //public abstract methods 
+        public abstract void DisplaySkills();
     }
 }
